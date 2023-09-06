@@ -1,0 +1,23 @@
+/* No seu arquivo CSS ou diretamente no código */
+.animate-bounce {
+  animation: bounce 0.5s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-10px);
+  }
+
+  60% {
+    transform: translateY(-5px);
+  }
+}
